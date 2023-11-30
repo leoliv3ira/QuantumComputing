@@ -1,0 +1,1021 @@
+body{
+    background-color: rgb(238, 238, 237);
+}
+
+/*Banner*/
+#banner{
+    width: 98%;
+    height: 70%;
+    padding: 15px;
+    display: inline-block;
+    margin-left: 0%;
+    margin-top: 2%;
+}
+/*titulo*/
+h1{
+    color:rgb(135, 135, 255);
+    margin-top: -430px;
+    text-align: center;
+    font-size:70px;
+    font-family:  inherit;
+}
+/*menu navegação*/
+#nav{
+    list-style: none;
+    background-color: white;
+    text-decoration: none;
+    font-family:cursive;
+    font-size: 85%;
+    position:fixed;
+    margin-left: -0.5%;
+    margin-top: -8px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+#nav li{
+    display: inline;
+}
+#nav li a{
+    color: rgb(47, 47, 116);
+    padding: 15px;
+    margin-left: -1%;
+    display: inline-block;
+    text-decoration: none;
+}
+#nav li a:hover{
+    background-color: rgb(238, 237, 237);
+}
+/*definiçao*/
+
+#subti{
+    padding:5%;
+    font-size: 40px;
+    margin-top:30%;
+    margin-bottom: -30%;
+    margin-left: 10%;
+    text-decoration:dotted;
+}
+#p1{
+    margin-top: 380px;
+    font-size: 25px;
+    margin-right: 55%;
+    margin-left: 2%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    text-align: left;
+}
+#v1{
+    margin-left: 50%;
+    margin-top: -35%;
+}
+
+/*pag sobre*/
+
+#p2{
+    padding:10%;
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    margin-left: 25%;
+}
+#t2{
+    font-size: 20px ;
+    color:black;
+    margin-left: 35%;
+    margin-top: -10%;
+}
+#principios{
+    padding:10%;
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    margin-left: 25%;
+    margin-top: -2%;
+}
+#pri{
+    font-size: 20px ;
+    color:black;
+    margin-left: 35%;
+    margin-top: -10%;
+}
+h2{
+    color:rgb(58, 85, 100);
+    font-family: cursive;
+    font-size: 25px;
+    margin-left: 35%;
+}
+#pritext{
+    color: black;
+    font-size: 20px;
+    margin-top: -2%;
+    margin-left: 35%;
+}
+
+#p3{
+    padding:10%;
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    margin-left: 25%;
+    margin-top: -3%;
+}
+#t3{
+    font-size: 20px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: -10%;
+}
+#p4{
+    padding:10%;
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    margin-left: 25%;
+    margin-top: -3%;
+}
+#t4{
+    font-size: 20px ;
+    color:black;
+    margin-left: 35%;
+    margin-top: -10%;
+}
+#dif{
+    padding:10%;
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    margin-left: 25%;
+    margin-top: -3%;
+}
+#t5{
+    font-size: 20px ;
+    color:black;
+    margin-left: 35%;
+    margin-top: -10%;
+}
+#t6{
+    font-size: 20px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 0%;
+}
+#p6{
+    padding:10%;
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    margin-left: 25%;
+    margin-top: -3%;
+}
+#t7{
+    font-size: 20px ;
+    color:black;
+    margin-left: 35%;
+    margin-top: -10%;
+}
+#t10{
+    padding:10%;
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    margin-left: 15%;
+    margin-top: -3%;
+}
+#te10{
+    font-size: 20px ;
+    color:black;
+    margin-left: 15%;
+    margin-top: -10%;
+    margin-right: 15%;
+}
+
+.links{
+    margin-left: -0%;
+    margin-top: -240%;
+    padding-right: 70%;
+}
+#s{
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    border-radius: 50%;
+}
+#pril{
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    border-radius: 50%;
+}
+#v{
+    margin-top: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    border-radius: 10%;
+
+}
+#q{
+    margin-top: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    border-radius: 50%;
+}
+#d{
+    margin-top: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    border-radius: 50%;
+}
+#f{
+    margin-top: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    border-radius: 10%;
+}
+#g{
+    margin-top: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    border-radius: 10%;
+}
+#ge{
+    margin-top: 5%;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    font-family: monospace;
+    border-radius: 10%;
+}
+
+.links li a{
+    text-decoration: none;
+    color: black;
+}
+.links li a:hover{
+    color: rgb(47, 47, 116);
+}
+#p7{
+    margin-top: 175%;
+    padding:10%;
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+}
+#t8{
+    text-align: center;
+    padding: 10%;
+    font-size: 20px;
+    margin-top: -20%;
+}
+#graf{
+    height: 80%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -7%;
+}
+ 
+
+.question-bar {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 70%;
+    margin-top: 15%;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(135, 135, 255);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(47, 47, 116);
+}
+
+/* Adicione este bloco para o contêiner de perguntas com rolagem */
+.question-scroll-container {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 20px;
+    margin-left: 0%;
+}
+
+.question-container {
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 70%;
+}
+
+.question-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.answer-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.response-input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.response-button {
+    background-color: rgb(135, 135, 255);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.response-button:hover {
+    background-color: rgb(47, 47, 116);
+}
+/*pag como ingressar*/
+.text{
+    margin-top: 10%;
+}
+#t9{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: -11%;
+}
+#texto{
+    font-size: 18px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 0%;
+}
+
+#livroAp{
+    margin-top: 5%;
+    margin-left: 55%;
+    color:  rgb(47, 47, 116);
+    font-size: 25px;
+    font-style:inherit;
+}
+
+#livros1{
+    color: black;
+    margin-left: 35%;
+    margin-right: 45%;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+
+#l1{
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#l2{
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#livros2{
+    color: black;
+    margin-left: 56.5%;
+    margin-right: 23.5%;
+    margin-top: -29.5%;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+#livros3{
+    color: black;
+    margin-left: 78%;
+    margin-right: 2%;
+    margin-top: -29.5%;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+#l3{
+    width: 80%;
+    height: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#imgqiskit{
+    height: 8%;
+    width: 4.5%;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+#qiskit{
+    margin-left: 41%;
+    font-size: 17px;
+    margin-top: -3.5%;
+
+}
+
+#t11{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 0%;
+}
+#listag{
+    font-size: 18px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 0%;
+}
+#ttabela{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+#tabela {
+    margin-left: 30%;
+    margin-right: 1%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#titulot {
+    background-color: #3498db;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#titulot:hover {
+    background-color: #3498db; 
+}
+
+#tabela, #tabela td, #tabela th {
+    border: 1px solid #bdc3c7;
+}
+
+#tabela td, #tabela th {
+    padding: 10px;
+    text-align: left;
+}
+#tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tabela tr:hover {
+    background-color: #e0e0e0;
+}
+#ciencia{
+    font-size: 25px ;
+    color:black;
+    margin-left: 32%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+#texto12{
+    font-size: 18px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+
+#aplicacoes{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+#google{
+    font-size: 18px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+#linkg{
+    color: black;
+    text-decoration: none;
+}
+#intel{
+    font-size: 18px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+#linki{
+    color: black;
+    text-decoration: none;
+}
+#ibm{
+    font-size: 18px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+#linkibm{
+    color: black;
+    text-decoration: none;
+}
+#termino{
+    font-size: 18px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+.links2{
+    margin-left: -0%;
+    margin-top: -195%;
+    padding-right: 70%;
+}
+.links2 li a{
+    text-decoration: none;
+    color: black;
+}
+.links2 li a:hover{
+    color: rgb(47, 47, 116);
+}
+
+#graficoempresa{
+    margin-top: 100%;
+    margin-left: 20%;
+    width: 70%;
+    height: 80%;
+}
+#descg{
+    margin-top: -40%;
+    margin-left: 80%;
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+}
+/*pag desafios e oportunidaes*/
+
+#imgdesafio{
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+}
+
+#introdesafio{
+    font-size: 20px ;
+    color:black;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 2%;
+    font-family: cursive;
+}
+
+#t13{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+#tex13{
+    font-size: 18px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 0%;
+
+}
+#t14{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#tex14{
+    font-size: 18px ;
+    color:black;
+    margin-left: 33%;
+    margin-top: 0%;
+}
+#t15{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+#profi{
+    font-size: 18px ;
+    color:black;
+    margin-left: 30%;
+    margin-right: 2%;
+    margin-top: 0%;
+}
+#imgpalestra{
+    margin-left: 40%;
+    margin-top: 2%;
+    width: 50%;
+}
+#listlink3{
+    margin-left: -0%;
+    margin-top: -115%;
+    padding-right: 70%;
+}
+#listlink3 li a{
+    text-decoration: none;
+    color: black;
+}
+#listlink3 li a:hover{
+     color: rgb(47, 47, 116);
+}
+    
+/*pag matematica*/
+#comeco{
+    font-size: 20px ;
+    color:black;
+    margin-left: 30%;
+    margin-right: 2%;
+    margin-top: 5%;   
+}
+
+#talgebra{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+#textalge{
+    font-size: 18px ;
+    color:black;
+    margin-left: 30%;
+    margin-right: 2%;
+    margin-top: 0%;
+}
+#tvm{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: -16%;
+    margin-top: 5%;
+}
+#textvm{
+    font-size: 18px ;
+    color:black;
+    margin-left: 30%;
+    margin-right: 2%;
+    margin-top: 0%;
+}
+#plog{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+#textlog{
+    font-size: 18px ;
+    color:black;
+    margin-left: 30%;
+    margin-right: 2%;
+    margin-top: 0%;
+}
+#imglog{
+    width: 40%;
+    height: 80%;
+    margin-left: 40%;
+}
+#tdeutsch{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+#textdeutsch{
+    font-size: 18px ;
+    color:black;
+    margin-left: 30%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+#imgdeutsch{
+     margin-left: 40%;
+}
+#tind{
+    font-size:30px;
+    color: rgb(47, 47, 116);
+    font-family: cursive;
+    text-align: center;
+    margin-left: 6%;
+    margin-top: 5%;
+} 
+#textind{
+    font-size: 18px ;
+    color:black;
+    margin-left: 30%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+#listlink4{
+    margin-left: -0%;
+    margin-top: -180%;
+    padding-right: 75%;
+}
+#listlink4 li a{
+    text-decoration: none;
+    color: black;
+
+}
+#listlink4 li a:hover{
+     color: rgb(47, 47, 116);
+}
+
+#footer1{
+    margin-top: 10%;
+    background-color: rgb(28, 7, 77);
+    
+}
+#footer2{
+    margin-top: 150%;
+    background-color:  rgb(28, 7, 77);
+}
+#footer3{
+    margin-top: 80%;
+    background-color:  rgb(28, 7, 77);
+}
+#footer4{
+    margin-top: 140%;
+    background-color:  rgb(28, 7, 77);
+}
+#ref{
+    color:white;
+    font-size: 22px;
+    font-family: cursive;
+    text-align: center;
+}
+#lref{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+#lref2{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom:40%;
+    margin-left: 55%;
+}
+#coc{
+    margin-top: -15%;
+}
+#lref:hover{
+    color: red;
+}
+#lref2:hover{
+    color: red;
+}
+
+/*responsivo*/
+/* Estilos para telas pequenas (dispositivos móveis) */
+/*pag inicial*/
+@media only screen and (max-width: 600px) {
+    #banner {
+        width: 100%;
+        height: auto;
+        margin-left: -20px;
+        margin-top: 30px;
+    }
+
+    h1 {
+        margin-top: -60px;
+        font-size: 36px;
+    }
+
+    #nav {
+        font-size: 10px;
+        margin-left: -10px;
+        margin-right: 0px;
+    }
+
+    #nav li a {
+        padding: 5px;
+        margin-left: -10px;
+
+    }
+
+    #subti {
+        margin-top: -10%;
+        font-size: 28px;
+        margin-left: 70px;
+    }
+
+    #p1 {
+        margin-top: 100px;
+        font-size: 16px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    #v1 {
+        margin-left: 0%;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .intro {
+        padding: 10px;
+    }
+
+    #graficoempresa {
+        margin-top: 10%;
+    }
+}
+
+/*pag sobre*/
+@media only screen and (max-width: 600px) {
+    #p2, #t2, #principios, #pri, h2, #pritext, #p3, #t3, #p4, #t4, #dif, #t5, #t6, #p6, #t7, #t10, #te10 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .links {
+        margin-left: -0%;
+        margin-top: -240%;
+        padding-right: 10%;
+    }
+
+    /* Adicione mais ajustes conforme necessário */
+}
+
+/* Estilos específicos para telas pequenas (dispositivos móveis) pag sobre */
+@media (max-width: 768px) {
+    #p2{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #t2, #principios, #pri, h2, #pritext, #p3, #t3, #p4, #t4, #dif, #t5, #t6, #p6, #t7, #t10, #te10 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .links {
+        margin-left: -0%;
+        margin-top: -1940%;
+        padding-right: 5%;
+    }
+    #grafico{
+        margin-top: 1750%;
+    }
+    #lref{
+        margin-left: 1%;
+    }
+}
+
+/*pag como ingressar*/
+@media (max-width: 768px) {
+    #t9{
+        margin-top: 10%;
+    }
+    #texto{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #qiskit{
+        margin-left: 18%;
+        margin-right: 5%;
+        margin-top: -15%;
+    }
+    #imgqiskit{
+        margin-left: 0%;
+        width: 15%;
+    }
+    #livroap{
+        margin-left: 12%;
+    }
+    #livros1{
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+    #livros2{
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 2%;
+    }
+    #livros3{
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 2%;
+    }
+    #listag,#tabela,#ciencia,#texto12,#aplicacoes,#google,#intel,#ibm,#termino{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #listlink2{
+        margin-top: -5500%;
+    }
+    #footer2{
+        margin-top: 1400%;
+    }
+}
+
+/* Estilos específicos para telas pequenas (dispositivos móveis) pag desafios */
+@media (max-width: 768px) {
+    #imgdesafio{
+        height: 40%;
+    }
+    #t13,#t14,#t15,#profi,#tex13,#tex14{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #imgpalestra{
+        width: 80%;
+        height: 40%;
+        margin-left: 10%;
+    }
+    #listlink3{
+        margin-top: -5000%;
+    }
+    #footer3{
+        margin-top: 4830%;
+    }
+}
+
+/* Estilos específicos para telas pequenas (dispositivos móveis) pag matematica*/
+@media (max-width: 768px) {
+     #comeco{
+        margin-top: 20%;
+        margin-left: 5%;
+     }
+    #talgebra,#textalge,#tvm,#textvm,#plog,#textlog,#tdeutsch,#textdeutsch,#tind,#textind{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #imglog{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+    }
+    #imgdeutsch{
+        width: 100%;
+        height: 20%;
+        margin-left: 0%;
+    }
+    #listlink4{
+        margin-top: -2000%;
+    }
+    #footer4{
+        margin-top: 1850%;
+    }
+}

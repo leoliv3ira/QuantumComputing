@@ -1,0 +1,164 @@
+<DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matemática para Computação Quântica</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="menu">
+    <header>
+        <ul id="nav">
+            <li id="ini"><a href="PagInicial.html">INÍCIO</a></li>
+            <li id="sob"><a href="Sobre.html">SOBRE A COMPUTAÇÃO QUÂNTICA</a></li>
+            <li id="ing"><a href="ComoIngressar.html">COMO INGRESSAR E APLICAÇÕES</a></li>
+            <li id="def"><a href="desafios.html">DESAFIOS E OPORTUNIDADES</a></li>
+            <li id="mat"><a href="matematica.html">MATEMÁTICA PARA COMPUTAÇÃO QUÂNTICA</a></li>
+        </ul>
+    </header>
+    <div> vazio</div>
+
+    <div id="comeco">Entender a matemática por trás da computação quântica é essencial para trabalhar eficientemente nesse
+        campo. Comece com os conceitos fundamentais e, à medida que ganha familiaridade, avance para áreas
+        mais avançadas da teoria quântica e suas aplicações em algoritmos quânticos.</div>
+
+    <div id="algebra">
+        <p id="talgebra">Algebra Linear para computção quântica</p>
+        <p id="textalge">
+            A álgebra linear é a linguagem da computação quântica. Embora você não precise ter o conhecimento
+            para implementar ou escrever programas quânticos, ela é amplamente usada para descrever os estados 
+            de qubits e as operações quânticas, além de prever o que um computador quântico faz em resposta a 
+            uma sequência de instruções.
+            <br>
+            <br>
+            Um conhecimento básico de álgebra linear pode ajudar você a entender como funcionam os algoritmos
+            quânticos. No mínimo, o ideal é saber trabalhar com os vetores e a multiplicação de matrizes. 
+        </p>
+    </div>
+
+    <div id="vm">
+        <p id="tvm">Vetores e Matrizes</p>
+        <p id="textvm">Um qubit pode estar em um estado de 1 ou 0, uma sobreposição ou ambos. 
+            Usando álgebra linear, o estado de um qubit é escrito como um vetor e é representado por uma só 
+            coluna matriz. Os elementos da matriz representam a probabilidade de o qubit entrar em colapso 
+            para uma forma ou outra, com |a|^2 sendo a probabilidade de um colapso para zero e |b|^2, a 
+            probabilidade de um colapso para um. Para saber mais sobre<a href="https://learn.microsoft.com/pt-br/azure/quantum/concepts-vectors-and-matrices"> 
+                Vetores e matrizes</a></p>
+    </div>
+
+    <div id="log">
+        <p id="plog">Portas lógicas na computação quântica</p>
+        <p id="textlog">Na eletrônica digital, os circuitos são constituídos por portas lógicas NOT, AND, OR, 
+            XOR, e derivadas, que criam relações lógicas com os bits. Já na computação quântica, existem as 
+            portas lógicas quânticas, que são matrizes unitárias responsáveis por modificar os estados dos 
+            qubits.</p>
+        <img id="imglog" src="portas.webp">
+    </div>
+
+    <div>
+        <p id="tdeutsch"> Algoritimo de Deutsch oracle</p>
+        <p id="textdeutsch"> Ele é usado para diferenciar funções constantes de funções balanceadas. 
+            O algoritmo é executado em um computador quântico e é capaz de fornecer a resposta correta com 
+            apenas uma consulta à função. Isso é significativamente mais rápido do que os algoritmos clássicos,
+            que exigem duas consultas para resolver o mesmo problema. O algoritmo de Deutsch é um dos 
+            primeiros exemplos de como a computação quântica pode ser usada para superar limitações da 
+            computação clássica. Ele é frequentemente usado como um exemplo introdutório de algoritmos 
+            quânticos.<br>
+            <br>O algoritmo começa com dois qubits, que são inicializados em um estado conhecido como estado
+            de superposição.Em seguida, uma porta quântica é aplicada aos qubits, que realiza uma transformação
+            sobre eles. Depois disso, outra porta quântica é aplicada aos qubits, que realiza outra 
+            transformação sobre eles. Finalmente, uma medição é feita nos qubits para determinar o resultado.
+            <br>A chave para o algoritmo é que a segunda transformação depende da função que está sendo 
+            consultada. Se a função for constante, a segunda transformação não fará nada. Se a função for 
+            balanceada, a segunda transformação terá um efeito mensurável nos qubits. Portanto, medindo os 
+            qubits após a segunda transformação, podemos determinar se a função é constante ou balanceada.</p>
+            <img id="imgdeutsch" src="imgnova.png">
+    </div>
+
+    <div id="ind">
+        <p id="tind">Indicação para começar</p>
+        <p id="textind">No Microsoft Learn pode aprender os conceitos fundamentais da computação quântica,
+            identificar os tipos de problemas que os algoritmos quânticos podem solucionar com mais eficiência
+            do que os algoritmos clássicos, criar programas quânticos básicos usando o Quantum Development Kit 
+            e o Q#, interagir com o serviço de nuvem do Azure Quantum, adaptar e criar aplicativos em Q# para 
+            executá-los no hardware <br>
+            <br>
+            O Azure Quantum é uma plataforma de computação quântica que permite aos usuários criar soluções 
+            de computação quântica em uma seleção diversificada do hardware quântico atual. O Azure Quantum 
+            agora é a capacidade de misturar computação clássica e quântica e desbloquear uma nova geração de 
+            algoritmos híbridos, trazendo pesquisa e experimentação com a geração atual de computadores 
+            quânticos para uma fase nova e emocionante.
+            <br><br>
+            Sites:
+            <br>
+            <a href="https://quantum.ibm.com/">IBM</a><br>
+            <a href="https://learn.microsoft.com/en-us/azure/quantum/overview-azure-quantum">Microsoft Learn</a><br>
+            <a href="https://azure.microsoft.com/pt-br/products/quantum">Azure Quantum</a>
+        </p>
+    </div>
+    
+    <div class="links4">
+        <ul id="listlink4">
+            <li id="q"><a href="#algebra"> Algebra Linear </a></li>
+            <hr>
+            <li id="v"><a href="#vm"> Vetores e Matrizes</a></li>
+            <hr>
+            <li id="q"><a href="#log"> Portas Lógicas</a></li>
+            <hr>
+            <li id="q"><a href="#tdeutsch"> Algoritimo Duetsch oracle</a></li>
+            <hr>
+            <li id="q"><a href="#tind"> Indicação</a></li>
+        </ul>
+    </div>
+
+
+    <div class="question-bar">
+        <label for="question">Tem alguma dúvida? Faça sua pergunta:</label>
+        <input type="text" id="question" placeholder="Digite sua pergunta...">
+        <button onclick="askQuestion()">Perguntar</button>
+    </div>
+          
+    <div class="question-scroll-container" id="questionScrollContainer">
+        <div class="question-container" id="questionContainer"></div>
+    </div>
+          
+    <script src="script.js"></script>
+
+
+    <footer id="footer4">
+        <p id="ref">Referências</p>
+        <a id="lref" href="https://aws.amazon.com/pt/what-is/quantum-computing/" >Amazon Web Services</a>
+        <br>
+        <br>
+        <a id="lref" href="https://www.ibm.com/br-pt/topics/quantum-computing"> IBM </a>
+        <br>
+        <br>  
+        <a id="lref" href="https://impa.br/ensino/programas-de-formacao/doutorado/minicursos/introduction-to-quantum-computing/"> IPMA </a>
+        <br>
+        <br>   
+        <a id="lref" href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-quantum-computing"> Microsoft</a>
+        <br>
+        <br>  
+        <a id="lref" href="https://www.investopedia.com/terms/q/quantum-computing.asp"> Investopedia </a>
+        <br>
+        <br> 
+        <p id="coc">  
+        <a id="lref2" href="https://www.iberdrola.com/innovation/what-is-quantum-computing"> Iberdrola </a>
+        <br>
+        <br>   
+        <a id="lref2" href="https://learn.microsoft.com/pt-br/azure/quantum/overview-algebra-for-quantum-computing"> Microsoft </a>
+        <br>
+        <br>   
+        <a id="lref2" href="https://medium.com/@filipe.chagas/uma-introdu%C3%A7%C3%A3o-%C3%A0-matem%C3%A1tica-da-computa%C3%A7%C3%A3o-qu%C3%A2ntica-22763e797b8d"> Medium </a>
+        <br>
+        <br>
+        <a id="lref2" href="https://www.i2ai.org/content/glossary/?gclid=CjwKCAiAjfyqBhAsEiwA-UdzJK7zGSoM14w6FTqjHPUqS_KGdXgmxblvw93F3R2_pTw8gM58dAWddBoCt08QAvD_BwE#cap34">I2AI</a>
+        <br>
+        <br>
+        <br>
+        </p>
+        <p id="ref">&copy; 2023 quamtum-computing.</p>
+    </footer>
+
+</html>
