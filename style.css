@@ -1,5 +1,4 @@
 
-@media only screen and (min-width: 600px) {
 body{
     background-color: rgb(238, 238, 237);
 }
@@ -828,7 +827,7 @@ button:hover {
 #lref2:hover{
     color: red;
 }
-}
+
 
 /*responsivo*/
 /* Estilos para telas pequenas (dispositivos móveis) */
